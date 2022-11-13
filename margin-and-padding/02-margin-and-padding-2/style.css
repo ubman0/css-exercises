@@ -11,6 +11,7 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin: 8px;
 }
 
 .content {
@@ -19,9 +20,11 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  display: block;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
 }
