@@ -15,6 +15,7 @@ body {
   text-align: center;
   padding-bottom: 8px;
   padding-top: 8px;
+  margin-top: 0px;
 }
 
 .content {
@@ -38,5 +39,4 @@ button {
   padding-bottom: 8px;
   padding-left: 24px;
   padding-right: 24px;
-  /*padding: 8px, 24px;*/
 }
