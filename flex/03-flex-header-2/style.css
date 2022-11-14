@@ -15,8 +15,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  gap: 16px;
-  padding: 16px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -51,10 +50,14 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  gap: 16px;
+  margin: 0; 
+  padding: 0;
 }
 
 .left, .right{
   display:flex;
+  align-items: center;
   gap: 16px;
 }
 
