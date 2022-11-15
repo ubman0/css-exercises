@@ -26,3 +26,29 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*Solution*/
+
+body{
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.sidebar{
+  display: flex;
+  order: -1;
+  flex-direction: column;
+}
+
+.card{
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+ul{
+text-decoration: none;
+list-style: none;
+color: white;
+}
