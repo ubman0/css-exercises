@@ -42,7 +42,10 @@ body{
 .header{
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
 }
 
 .footer{
@@ -57,7 +60,7 @@ a{
 
 ul{
   list-style: none;
-  padding-bottom: 10px;
+  margin: 300px;
 }
 
 .card{
@@ -75,7 +78,6 @@ ul{
 .first-row,.second-row,.third-row{
   display: flex;
   flex-flow: column;
-  align-items: center;
   padding: 15px;
   flex: 1 1 auto;
 }
