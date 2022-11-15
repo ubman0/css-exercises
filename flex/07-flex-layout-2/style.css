@@ -51,6 +51,8 @@ body{
 .footer{
   display: flex;
   flex-flow: column-reverse;
+  align-items: center;
+  justify-content: center;
 }
 
 a{
