@@ -50,11 +50,26 @@ body{
   flex-flow: column-reverse;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+  padding-bottom: 10px;
+}
+
 .card{
   display: flex;
-  flex: 1 1 auto;
+  flex: 1;
   flex-flow: row;
-  padding: 15px;
+  margin: 15px;
+}
+
+.rows{
+  display: flex;
+  flex-flow: row;
 }
 
 .first-row,.second-row,.third-row{
