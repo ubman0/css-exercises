@@ -27,28 +27,36 @@ body {
   border-radius: 4px;
 }
 
-/*Solution*/
+/*Changes:*/
 
 body{
   display: flex;
-  flex: 1 1 auto;
   flex-direction: column;
 }
 
-.sidebar{
+.content{
   display: flex;
-  order: -1;
-  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.footer{
+  display: flex;
+  flex-flow: column-reverse;
 }
 
 .card{
   display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
+  flex-flow: row;
+  padding: 8px;
 }
 
-ul{
-text-decoration: none;
-list-style: none;
-color: white;
+.first-row,.second-row,.third-row{
+  display: flex;
+  flex-flow: column;
 }
